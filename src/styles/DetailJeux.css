@@ -1,0 +1,63 @@
+/* DetailJeux.css */
+
+.game-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+  }
+  
+  .game-detail img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .game-detail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+  
+  .game-detail p {
+  font-size: 16px;
+  color: #ccc;
+  text-align: justify;
+  margin-bottom: 10px;
+  }
+  
+  .game-detail .description {
+  font-size: 16px;
+  color: #ccc;
+  text-align: justify;
+  margin-bottom: 20px;
+  border: none;
+  padding: 20px;
+  }
+  
+  .game-detail .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  }
+  
+  .game-detail .icon-button {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  color: #ccc;
+  }
+  
+  .game-detail .icon-button.favorite.active {
+  color: #ff0000;
+  }
+  
+  .game-detail .icon-button.finished.active {
+  color: #00ff00;
+  }
